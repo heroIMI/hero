@@ -20,6 +20,7 @@ import java.util.List;
 public class HeaderIntercepter extends AbstractSoapInterceptor {
 	private String qname;
  
+	
 	public HeaderIntercepter() {
 		super(Phase.WRITE);
 	}
