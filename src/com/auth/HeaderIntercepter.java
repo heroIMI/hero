@@ -56,7 +56,7 @@ public class HeaderIntercepter extends AbstractSoapInterceptor {
 		Element element = document.createElementNS(qname, "RequestSOAPHeader");
 		Element token = document.createElement("token");
 		token.setTextContent("kkkkk");
-		// element.appendChild(tokenfuck姚名洁智障);
+		// element.appendChild(tokenfuck臭嗨);
 		SoapHeader header = new SoapHeader(qName, token);
 		return (header);
 	}
